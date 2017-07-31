@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="calc-container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="box">
+          <div class="display" id="display">0</div>
+        </div>
+      </div>
+    </div>
+    <div class="buttons-container" id="buttons">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="model">TI-2511</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="clear-entry" data-value="CE">CE</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="divide" data-value="/">&#247;</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="mutiply" data-value="*">&#215;</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <input type="checkbox" id="on">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="seven" data-value="7">7</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="eight" data-value="8">8</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="nine" data-value="9">9</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="clear" data-value="C">C</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="four" data-value="4">4</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="five" data-value="5">5</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="six" data-value="6">6</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="subtract" data-value="-">-</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="one" data-value="1">1</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="two" data-value="2">2</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="three" data-value="3">3</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button tan" id="add" data-value="+">+</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="box">
+            <div class="button white" id="zero" data-value="0">0</div>
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="box">
+            <div class="button white" id="decimal" data-value=".">.</div>
+          </div>
+        </div>
+        <div class="col-xs-5">
+          <div class="box">
+            <div class="button orange" id="equals" data-value="=">=</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
